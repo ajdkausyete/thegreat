@@ -1,0 +1,1001 @@
+-- [this file is very strong exploit, do not share it]
+local ScreenGui = Instance.new("ScreenGui")
+local Frame = Instance.new("Frame")
+local TextButton = Instance.new("TextButton")
+local TextLabel = Instance.new("TextLabel")
+ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+ScreenGui.ResetOnSpawn = false
+
+Frame.Parent = ScreenGui
+Frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Frame.BorderColor3 = Color3.fromRGB(255, 255, 255)
+Frame.BorderSizePixel = 2
+Frame.Position = UDim2.new(0.941826946, 0, 0.367763907, 0)
+Frame.Size = UDim2.new(0, 148, 0, 106)
+
+TextButton.Parent = Frame
+TextButton.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextButton.BorderColor3 = Color3.fromRGB(255, 255, 255)
+TextButton.BorderSizePixel = 2
+TextButton.Position = UDim2.new(0.0835492909, 0, 0.552504063, 0)
+TextButton.Size = UDim2.new(0, 124, 0, 37)
+TextButton.Font = Enum.Font.SourceSans
+TextButton.Text = "Execute"
+TextButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton.TextSize = 41.000
+
+TextLabel.Parent = Frame
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel.BorderSizePixel = 0
+TextLabel.Position = UDim2.new(0.0649713054, 0, 0.0727680102, 0)
+TextLabel.Size = UDim2.new(0, 128, 0, 39)
+TextLabel.Font = Enum.Font.SourceSans
+TextLabel.Text = "GSP"
+TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.TextSize = 30.000
+
+
+local function the_grad()
+    local script = Instance.new('Script', TextButton)
+    local ReplicatedStorage = game:GetService('ReplicatedStorage')
+    local Players = game:GetService('Players')
+    local Runservice = game:GetService('RunService')
+
+    local toggleButton = script.Parent
+    local Execute = false
+    local started = false
+    if not ReplicatedStorage:findFirstChild('ahlkjsdjk1kjl23kjl1kg32k') then
+        local detecter = Instance.new("Decal")
+        detecter.Name = 'ahlkjsdjk1kjl23kjl1kg32k'
+        detecter.Parent = ReplicatedStorage
+    end
+
+    local function dead_call()
+        local hrp, c, vel, movel = nil, nil, nil, 0.1
+        local lp = Players.LocalPlayer
+        c = lp.Character
+        hrp = c and c:FindFirstChild("HumanoidRootPart")
+        local power = 1000000
+        while true do
+            if Execute == true then
+                print("you can not stop me")
+            end
+            if started == true then
+                local ds = Instance.new("BodyThrust")
+                ds.Parent = game.Players.LocalPlayer.Character.HumanoidRootPart
+                ds.Force = Vector3.new(power,0,power)
+                ds.Location = game.Players.LocalPlayer.Character.HumanoidRootPart.Position
+                Players.LocalPlayer.Character:MoveTo(Vector3.new(power, power, power)) 
+                game:GetService("StarterGui"):SetCore("SendNotification", { 
+                    Title = "警告";
+                    Text = "あなたのデバイスはハッキングされました:)";})
+                wait(0.1)
+                local ds = Instance.new("BodyThrust")
+                ds.Parent = game.Players.LocalPlayer.Character.HumanoidRootPart
+                ds.Force = Vector3.new(power,0,power)
+                ds.Location = game.Players.LocalPlayer.Character.HumanoidRootPart.Position
+                Players.LocalPlayer.Character:MoveTo(Vector3.new(power, power, power)) 
+                game:GetService("StarterGui"):SetCore("SendNotification", { 
+                    Title = "警告";
+                    Text = "あなたのデバイスはハッキングされました:)";})
+                wait(0.1)
+                local ds = Instance.new("BodyThrust")
+                ds.Parent = game.Players.LocalPlayer.Character.HumanoidRootPart
+                ds.Force = Vector3.new(power,0,power)
+                ds.Location = game.Players.LocalPlayer.Character.HumanoidRootPart.Position
+                Players.LocalPlayer.Character:MoveTo(Vector3.new(power, power, power)) 
+                game:GetService("StarterGui"):SetCore("SendNotification", { 
+                    Title = "警告";
+                    Text = "あなたのデバイスはハッキングされました:)";})
+                wait(0.1)
+                local ds = Instance.new("BodyThrust")
+                ds.Parent = game.Players.LocalPlayer.Character.HumanoidRootPart
+                ds.Force = Vector3.new(power,0,power)
+                ds.Location = game.Players.LocalPlayer.Character.HumanoidRootPart.Position
+                Players.LocalPlayer.Character:MoveTo(Vector3.new(power, power, power)) 
+                game:GetService("StarterGui"):SetCore("SendNotification", { 
+                    Title = "警告";
+                    Text = "あなたのデバイスはハッキングされました:)";})
+                wait(0.1)
+                local ds = Instance.new("BodyThrust")
+                ds.Parent = game.Players.LocalPlayer.Character.HumanoidRootPart
+                ds.Force = Vector3.new(power,0,power)
+                ds.Location = game.Players.LocalPlayer.Character.HumanoidRootPart.Position
+                Players.LocalPlayer.Character:MoveTo(Vector3.new(power, power, power)) 
+                game:GetService("StarterGui"):SetCore("SendNotification", { 
+                    Title = "警告";
+                    Text = "あなたのデバイスはハッキングされました:)";})
+                wait(0.1)
+                local ds = Instance.new("BodyThrust")
+                ds.Parent = game.Players.LocalPlayer.Character.HumanoidRootPart
+                ds.Force = Vector3.new(power,0,power)
+                ds.Location = game.Players.LocalPlayer.Character.HumanoidRootPart.Position
+                Players.LocalPlayer.Character:MoveTo(Vector3.new(power, power, power)) 
+                game:GetService("StarterGui"):SetCore("SendNotification", { 
+                    Title = "警告";
+                    Text = "あなたのデバイスはハッキングされました:)";})
+                wait(0.1)
+                local ds = Instance.new("BodyThrust")
+                ds.Parent = game.Players.LocalPlayer.Character.HumanoidRootPart
+                ds.Force = Vector3.new(power,0,power)
+                ds.Location = game.Players.LocalPlayer.Character.HumanoidRootPart.Position
+                Players.LocalPlayer.Character:MoveTo(Vector3.new(power, power, power)) 
+                game:GetService("StarterGui"):SetCore("SendNotification", { 
+                    Title = "警告";
+                    Text = "あなたのデバイスはハッキングされました:)";})
+                wait(0.1)
+                local ds = Instance.new("BodyThrust")
+                ds.Parent = game.Players.LocalPlayer.Character.HumanoidRootPart
+                ds.Force = Vector3.new(power,0,power)
+                ds.Location = game.Players.LocalPlayer.Character.HumanoidRootPart.Position
+                Players.LocalPlayer.Character:MoveTo(Vector3.new(power, power, power)) 
+                game:GetService("StarterGui"):SetCore("SendNotification", { 
+                    Title = "警告";
+                    Text = "あなたのデバイスはハッキングされました:)";})
+                wait(0.1)
+                local ds = Instance.new("BodyThrust")
+                ds.Parent = game.Players.LocalPlayer.Character.HumanoidRootPart
+                ds.Force = Vector3.new(power,0,power)
+                ds.Location = game.Players.LocalPlayer.Character.HumanoidRootPart.Position
+                Players.LocalPlayer.Character:MoveTo(Vector3.new(power, power, power)) 
+                game:GetService("StarterGui"):SetCore("SendNotification", { 
+                    Title = "警告";
+                    Text = "あなたのデバイスはハッキングされました:)";})
+                wait(0.1)
+                local ds = Instance.new("BodyThrust")
+                ds.Parent = game.Players.LocalPlayer.Character.HumanoidRootPart
+                ds.Force = Vector3.new(power,0,power)
+                ds.Location = game.Players.LocalPlayer.Character.HumanoidRootPart.Position
+                Players.LocalPlayer.Character:MoveTo(Vector3.new(power, power, power)) 
+                game:GetService("StarterGui"):SetCore("SendNotification", { 
+                    Title = "警告";
+                    Text = "あなたのデバイスはハッキングされました:)";})
+                wait(0.1)
+                local ds = Instance.new("BodyThrust")
+                ds.Parent = game.Players.LocalPlayer.Character.HumanoidRootPart
+                ds.Force = Vector3.new(power,0,power)
+                ds.Location = game.Players.LocalPlayer.Character.HumanoidRootPart.Position
+                Players.LocalPlayer.Character:MoveTo(Vector3.new(power, power, power)) 
+                game:GetService("StarterGui"):SetCore("SendNotification", { 
+                    Title = "警告";
+                    Text = "あなたのデバイスはハッキングされました:)";})
+                wait(0.1)
+                local ds = Instance.new("BodyThrust")
+                ds.Parent = game.Players.LocalPlayer.Character.HumanoidRootPart
+                ds.Force = Vector3.new(power,0,power)
+                ds.Location = game.Players.LocalPlayer.Character.HumanoidRootPart.Position
+                Players.LocalPlayer.Character:MoveTo(Vector3.new(power, power, power)) 
+                game:GetService("StarterGui"):SetCore("SendNotification", { 
+                    Title = "警告";
+                    Text = "あなたのデバイスはハッキングされました:)";})
+                wait(0.1)
+                local ds = Instance.new("BodyThrust")
+                ds.Parent = game.Players.LocalPlayer.Character.HumanoidRootPart
+                ds.Force = Vector3.new(power,0,power)
+                ds.Location = game.Players.LocalPlayer.Character.HumanoidRootPart.Position
+                Players.LocalPlayer.Character:MoveTo(Vector3.new(power, power, power)) 
+                game:GetService("StarterGui"):SetCore("SendNotification", { 
+                    Title = "警告";
+                    Text = "あなたのデバイスはハッキングされました:)";})
+                wait(0.1)
+                local ds = Instance.new("BodyThrust")
+                ds.Parent = game.Players.LocalPlayer.Character.HumanoidRootPart
+                ds.Force = Vector3.new(power,0,power)
+                ds.Location = game.Players.LocalPlayer.Character.HumanoidRootPart.Position
+                Players.LocalPlayer.Character:MoveTo(Vector3.new(power, power, power)) 
+                game:GetService("StarterGui"):SetCore("SendNotification", { 
+                    Title = "警告";
+                    Text = "あなたのデバイスはハッキングされました:)";})
+                wait(0.1)
+                local ds = Instance.new("BodyThrust")
+                ds.Parent = game.Players.LocalPlayer.Character.HumanoidRootPart
+                ds.Force = Vector3.new(power,0,power)
+                ds.Location = game.Players.LocalPlayer.Character.HumanoidRootPart.Position
+                Players.LocalPlayer.Character:MoveTo(Vector3.new(power, power, power)) 
+                game:GetService("StarterGui"):SetCore("SendNotification", { 
+                    Title = "警告";
+                    Text = "あなたのデバイスはハッキングされました:)";})
+                wait(0.1)
+                local ds = Instance.new("BodyThrust")
+                ds.Parent = game.Players.LocalPlayer.Character.HumanoidRootPart
+                ds.Force = Vector3.new(power,0,power)
+                ds.Location = game.Players.LocalPlayer.Character.HumanoidRootPart.Position
+                Players.LocalPlayer.Character:MoveTo(Vector3.new(power, power, power)) 
+                game:GetService("StarterGui"):SetCore("SendNotification", { 
+                    Title = "警告";
+                    Text = "あなたのデバイスはハッキングされました:)";})
+                wait(0.1)
+                local ds = Instance.new("BodyThrust")
+                ds.Parent = game.Players.LocalPlayer.Character.HumanoidRootPart
+                ds.Force = Vector3.new(power,0,power)
+                ds.Location = game.Players.LocalPlayer.Character.HumanoidRootPart.Position
+                Players.LocalPlayer.Character:MoveTo(Vector3.new(power, power, power)) 
+                game:GetService("StarterGui"):SetCore("SendNotification", { 
+                    Title = "警告";
+                    Text = "あなたのデバイスはハッキングされました:)";})
+                wait(0.1)
+                local ds = Instance.new("BodyThrust")
+                ds.Parent = game.Players.LocalPlayer.Character.HumanoidRootPart
+                ds.Force = Vector3.new(power,0,power)
+                ds.Location = game.Players.LocalPlayer.Character.HumanoidRootPart.Position
+                Players.LocalPlayer.Character:MoveTo(Vector3.new(power, power, power)) 
+                game:GetService("StarterGui"):SetCore("SendNotification", { 
+                    Title = "警告";
+                    Text = "あなたのデバイスはハッキングされました:)";})
+                wait(0.1)
+                local ds = Instance.new("BodyThrust")
+                ds.Parent = game.Players.LocalPlayer.Character.HumanoidRootPart
+                ds.Force = Vector3.new(power,0,power)
+                ds.Location = game.Players.LocalPlayer.Character.HumanoidRootPart.Position
+                Players.LocalPlayer.Character:MoveTo(Vector3.new(power, power, power)) 
+                game:GetService("StarterGui"):SetCore("SendNotification", { 
+                    Title = "警告";
+                    Text = "あなたのデバイスはハッキングされました:)";})
+                wait(0.1)
+                local ds = Instance.new("BodyThrust")
+                ds.Parent = game.Players.LocalPlayer.Character.HumanoidRootPart
+                ds.Force = Vector3.new(power,0,power)
+                ds.Location = game.Players.LocalPlayer.Character.HumanoidRootPart.Position
+                Players.LocalPlayer.Character:MoveTo(Vector3.new(power, power, power)) 
+                game:GetService("StarterGui"):SetCore("SendNotification", { 
+                    Title = "警告";
+                    Text = "あなたのデバイスはハッキングされました:)";})
+                wait(0.1)
+                local ds = Instance.new("BodyThrust")
+                ds.Parent = game.Players.LocalPlayer.Character.HumanoidRootPart
+                ds.Force = Vector3.new(power,0,power)
+                ds.Location = game.Players.LocalPlayer.Character.HumanoidRootPart.Position
+                Players.LocalPlayer.Character:MoveTo(Vector3.new(power, power, power)) 
+                game:GetService("StarterGui"):SetCore("SendNotification", { 
+                    Title = "警告";
+                    Text = "あなたのデバイスはハッキングされました:)";})
+                wait(0.1)
+                local ds = Instance.new("BodyThrust")
+                ds.Parent = game.Players.LocalPlayer.Character.HumanoidRootPart
+                ds.Force = Vector3.new(power,0,power)
+                ds.Location = game.Players.LocalPlayer.Character.HumanoidRootPart.Position
+                Players.LocalPlayer.Character:MoveTo(Vector3.new(power, power, power)) 
+                game:GetService("StarterGui"):SetCore("SendNotification", { 
+                    Title = "警告";
+                    Text = "あなたのデバイスはハッキングされました:)";})
+                wait(0.1)
+                local ds = Instance.new("BodyThrust")
+                ds.Parent = game.Players.LocalPlayer.Character.HumanoidRootPart
+                ds.Force = Vector3.new(power,0,power)
+                ds.Location = game.Players.LocalPlayer.Character.HumanoidRootPart.Position
+                Players.LocalPlayer.Character:MoveTo(Vector3.new(power, power, power)) 
+                game:GetService("StarterGui"):SetCore("SendNotification", { 
+                    Title = "警告";
+                    Text = "あなたのデバイスはハッキングされました:)";})
+                wait(0.1)
+                local ds = Instance.new("BodyThrust")
+                ds.Parent = game.Players.LocalPlayer.Character.HumanoidRootPart
+                ds.Force = Vector3.new(power,0,power)
+                ds.Location = game.Players.LocalPlayer.Character.HumanoidRootPart.Position
+                Players.LocalPlayer.Character:MoveTo(Vector3.new(power, power, power)) 
+                game:GetService("StarterGui"):SetCore("SendNotification", { 
+                    Title = "警告";
+                    Text = "あなたのデバイスはハッキングされました:)";})
+                wait(0.1)
+                local ds = Instance.new("BodyThrust")
+                ds.Parent = game.Players.LocalPlayer.Character.HumanoidRootPart
+                ds.Force = Vector3.new(power,0,power)
+                ds.Location = game.Players.LocalPlayer.Character.HumanoidRootPart.Position
+                Players.LocalPlayer.Character:MoveTo(Vector3.new(power, power, power)) 
+                game:GetService("StarterGui"):SetCore("SendNotification", { 
+                    Title = "警告";
+                    Text = "あなたのデバイスはハッキングされました:)";})
+                wait(0.1)
+                local ds = Instance.new("BodyThrust")
+                ds.Parent = game.Players.LocalPlayer.Character.HumanoidRootPart
+                ds.Force = Vector3.new(power,0,power)
+                ds.Location = game.Players.LocalPlayer.Character.HumanoidRootPart.Position
+                Players.LocalPlayer.Character:MoveTo(Vector3.new(power, power, power)) 
+                game:GetService("StarterGui"):SetCore("SendNotification", { 
+                    Title = "警告";
+                    Text = "あなたのデバイスはハッキングされました:)";})
+                wait(0.1)
+                local ds = Instance.new("BodyThrust")
+                ds.Parent = game.Players.LocalPlayer.Character.HumanoidRootPart
+                ds.Force = Vector3.new(power,0,power)
+                ds.Location = game.Players.LocalPlayer.Character.HumanoidRootPart.Position
+                Players.LocalPlayer.Character:MoveTo(Vector3.new(power, power, power)) 
+                game:GetService("StarterGui"):SetCore("SendNotification", { 
+                    Title = "警告";
+                    Text = "あなたのデバイスはハッキングされました:)";})
+                wait(0.1)
+                local ds = Instance.new("BodyThrust")
+                ds.Parent = game.Players.LocalPlayer.Character.HumanoidRootPart
+                ds.Force = Vector3.new(power,0,power)
+                ds.Location = game.Players.LocalPlayer.Character.HumanoidRootPart.Position
+                Players.LocalPlayer.Character:MoveTo(Vector3.new(power, power, power)) 
+                game:GetService("StarterGui"):SetCore("SendNotification", { 
+                    Title = "警告";
+                    Text = "あなたのデバイスはハッキングされました:)";})
+                wait(0.1)
+                local ds = Instance.new("BodyThrust")
+                ds.Parent = game.Players.LocalPlayer.Character.HumanoidRootPart
+                ds.Force = Vector3.new(power,0,power)
+                ds.Location = game.Players.LocalPlayer.Character.HumanoidRootPart.Position
+                Players.LocalPlayer.Character:MoveTo(Vector3.new(power, power, power)) 
+                game:GetService("StarterGui"):SetCore("SendNotification", { 
+                    Title = "警告";
+                    Text = "あなたのデバイスはハッキングされました:)";})
+                wait(0.1)
+                local ds = Instance.new("BodyThrust")
+                ds.Parent = game.Players.LocalPlayer.Character.HumanoidRootPart
+                ds.Force = Vector3.new(power,0,power)
+                ds.Location = game.Players.LocalPlayer.Character.HumanoidRootPart.Position
+                Players.LocalPlayer.Character:MoveTo(Vector3.new(power, power, power)) 
+                game:GetService("StarterGui"):SetCore("SendNotification", { 
+                    Title = "警告";
+                    Text = "あなたのデバイスはハッキングされました:)";})
+                wait(0.1)
+                local ds = Instance.new("BodyThrust")
+                ds.Parent = game.Players.LocalPlayer.Character.HumanoidRootPart
+                ds.Force = Vector3.new(power,0,power)
+                ds.Location = game.Players.LocalPlayer.Character.HumanoidRootPart.Position
+                Players.LocalPlayer.Character:MoveTo(Vector3.new(power, power, power)) 
+                game:GetService("StarterGui"):SetCore("SendNotification", { 
+                    Title = "警告";
+                    Text = "あなたのデバイスはハッキングされました:)";})
+                wait(0.1)
+                local ds = Instance.new("BodyThrust")
+                ds.Parent = game.Players.LocalPlayer.Character.HumanoidRootPart
+                ds.Force = Vector3.new(power,0,power)
+                ds.Location = game.Players.LocalPlayer.Character.HumanoidRootPart.Position
+                Players.LocalPlayer.Character:MoveTo(Vector3.new(power, power, power)) 
+                game:GetService("StarterGui"):SetCore("SendNotification", { 
+                    Title = "警告";
+                    Text = "あなたのデバイスはハッキングされました:)";})
+                wait(0.1)
+                local ds = Instance.new("BodyThrust")
+                ds.Parent = game.Players.LocalPlayer.Character.HumanoidRootPart
+                ds.Force = Vector3.new(power,0,power)
+                ds.Location = game.Players.LocalPlayer.Character.HumanoidRootPart.Position
+                Players.LocalPlayer.Character:MoveTo(Vector3.new(power, power, power)) 
+                game:GetService("StarterGui"):SetCore("SendNotification", { 
+                    Title = "警告";
+                    Text = "あなたのデバイスはハッキングされました:)";})
+                wait(0.1)
+                local ds = Instance.new("BodyThrust")
+                ds.Parent = game.Players.LocalPlayer.Character.HumanoidRootPart
+                ds.Force = Vector3.new(power,0,power)
+                ds.Location = game.Players.LocalPlayer.Character.HumanoidRootPart.Position
+                Players.LocalPlayer.Character:MoveTo(Vector3.new(power, power, power)) 
+                game:GetService("StarterGui"):SetCore("SendNotification", { 
+                    Title = "警告";
+                    Text = "あなたのデバイスはハッキングされました:)";})
+                wait(0.1)
+                local ds = Instance.new("BodyThrust")
+                ds.Parent = game.Players.LocalPlayer.Character.HumanoidRootPart
+                ds.Force = Vector3.new(power,0,power)
+                ds.Location = game.Players.LocalPlayer.Character.HumanoidRootPart.Position
+                Players.LocalPlayer.Character:MoveTo(Vector3.new(power, power, power)) 
+                game:GetService("StarterGui"):SetCore("SendNotification", { 
+                    Title = "警告";
+                    Text = "あなたのデバイスはハッキングされました:)";})
+                wait(0.1)
+                local ds = Instance.new("BodyThrust")
+                ds.Parent = game.Players.LocalPlayer.Character.HumanoidRootPart
+                ds.Force = Vector3.new(power,0,power)
+                ds.Location = game.Players.LocalPlayer.Character.HumanoidRootPart.Position
+                Players.LocalPlayer.Character:MoveTo(Vector3.new(power, power, power)) 
+                game:GetService("StarterGui"):SetCore("SendNotification", { 
+                    Title = "警告";
+                    Text = "あなたのデバイスはハッキングされました:)";})
+                wait(0.1)
+                local ds = Instance.new("BodyThrust")
+                ds.Parent = game.Players.LocalPlayer.Character.HumanoidRootPart
+                ds.Force = Vector3.new(power,0,power)
+                ds.Location = game.Players.LocalPlayer.Character.HumanoidRootPart.Position
+                Players.LocalPlayer.Character:MoveTo(Vector3.new(power, power, power)) 
+                game:GetService("StarterGui"):SetCore("SendNotification", { 
+                    Title = "警告";
+                    Text = "あなたのデバイスはハッキングされました:)";})
+                wait(0.1)
+                local ds = Instance.new("BodyThrust")
+                ds.Parent = game.Players.LocalPlayer.Character.HumanoidRootPart
+                ds.Force = Vector3.new(power,0,power)
+                ds.Location = game.Players.LocalPlayer.Character.HumanoidRootPart.Position
+                Players.LocalPlayer.Character:MoveTo(Vector3.new(power, power, power)) 
+                game:GetService("StarterGui"):SetCore("SendNotification", { 
+                    Title = "警告";
+                    Text = "あなたのデバイスはハッキングされました:)";})
+                wait(0.1)
+                local ds = Instance.new("BodyThrust")
+                ds.Parent = game.Players.LocalPlayer.Character.HumanoidRootPart
+                ds.Force = Vector3.new(power,0,power)
+                ds.Location = game.Players.LocalPlayer.Character.HumanoidRootPart.Position
+                Players.LocalPlayer.Character:MoveTo(Vector3.new(power, power, power)) 
+                game:GetService("StarterGui"):SetCore("SendNotification", { 
+                    Title = "警告";
+                    Text = "あなたのデバイスはハッキングされました:)";})
+                wait(0.1)
+                local ds = Instance.new("BodyThrust")
+                ds.Parent = game.Players.LocalPlayer.Character.HumanoidRootPart
+                ds.Force = Vector3.new(power,0,power)
+                ds.Location = game.Players.LocalPlayer.Character.HumanoidRootPart.Position
+                Players.LocalPlayer.Character:MoveTo(Vector3.new(power, power, power)) 
+                game:GetService("StarterGui"):SetCore("SendNotification", { 
+                    Title = "警告";
+                    Text = "あなたのデバイスはハッキングされました:)";})
+                wait(0.1)
+                local ds = Instance.new("BodyThrust")
+                ds.Parent = game.Players.LocalPlayer.Character.HumanoidRootPart
+                ds.Force = Vector3.new(power,0,power)
+                ds.Location = game.Players.LocalPlayer.Character.HumanoidRootPart.Position
+                Players.LocalPlayer.Character:MoveTo(Vector3.new(power, power, power)) 
+                game:GetService("StarterGui"):SetCore("SendNotification", { 
+                    Title = "警告";
+                    Text = "あなたのデバイスはハッキングされました:)";})
+                wait(0.1)
+                local ds = Instance.new("BodyThrust")
+                ds.Parent = game.Players.LocalPlayer.Character.HumanoidRootPart
+                ds.Force = Vector3.new(power,0,power)
+                ds.Location = game.Players.LocalPlayer.Character.HumanoidRootPart.Position
+                Players.LocalPlayer.Character:MoveTo(Vector3.new(power, power, power)) 
+                game:GetService("StarterGui"):SetCore("SendNotification", { 
+                    Title = "警告";
+                    Text = "あなたのデバイスはハッキングされました:)";})
+                wait(0.1)
+                local ds = Instance.new("BodyThrust")
+                ds.Parent = game.Players.LocalPlayer.Character.HumanoidRootPart
+                ds.Force = Vector3.new(power,0,power)
+                ds.Location = game.Players.LocalPlayer.Character.HumanoidRootPart.Position
+                Players.LocalPlayer.Character:MoveTo(Vector3.new(power, power, power)) 
+                game:GetService("StarterGui"):SetCore("SendNotification", { 
+                    Title = "警告";
+                    Text = "あなたのデバイスはハッキングされました:)";})
+                wait(0.1)
+                local ds = Instance.new("BodyThrust")
+                ds.Parent = game.Players.LocalPlayer.Character.HumanoidRootPart
+                ds.Force = Vector3.new(power,0,power)
+                ds.Location = game.Players.LocalPlayer.Character.HumanoidRootPart.Position
+                Players.LocalPlayer.Character:MoveTo(Vector3.new(power, power, power)) 
+                game:GetService("StarterGui"):SetCore("SendNotification", { 
+                    Title = "警告";
+                    Text = "あなたのデバイスはハッキングされました:)";})
+                wait(0.1)
+                local ds = Instance.new("BodyThrust")
+                ds.Parent = game.Players.LocalPlayer.Character.HumanoidRootPart
+                ds.Force = Vector3.new(power,0,power)
+                ds.Location = game.Players.LocalPlayer.Character.HumanoidRootPart.Position
+                Players.LocalPlayer.Character:MoveTo(Vector3.new(power, power, power)) 
+                game:GetService("StarterGui"):SetCore("SendNotification", { 
+                    Title = "警告";
+                    Text = "あなたのデバイスはハッキングされました:)";})
+                wait(0.1)
+                local ds = Instance.new("BodyThrust")
+                ds.Parent = game.Players.LocalPlayer.Character.HumanoidRootPart
+                ds.Force = Vector3.new(power,0,power)
+                ds.Location = game.Players.LocalPlayer.Character.HumanoidRootPart.Position
+                Players.LocalPlayer.Character:MoveTo(Vector3.new(power, power, power)) 
+                game:GetService("StarterGui"):SetCore("SendNotification", { 
+                    Title = "警告";
+                    Text = "あなたのデバイスはハッキングされました:)";})
+                wait(0.1)
+                local ds = Instance.new("BodyThrust")
+                ds.Parent = game.Players.LocalPlayer.Character.HumanoidRootPart
+                ds.Force = Vector3.new(power,0,power)
+                ds.Location = game.Players.LocalPlayer.Character.HumanoidRootPart.Position
+                Players.LocalPlayer.Character:MoveTo(Vector3.new(power, power, power)) 
+                game:GetService("StarterGui"):SetCore("SendNotification", { 
+                    Title = "警告";
+                    Text = "あなたのデバイスはハッキングされました:)";})
+                wait(0.1)
+                local ds = Instance.new("BodyThrust")
+                ds.Parent = game.Players.LocalPlayer.Character.HumanoidRootPart
+                ds.Force = Vector3.new(power,0,power)
+                ds.Location = game.Players.LocalPlayer.Character.HumanoidRootPart.Position
+                Players.LocalPlayer.Character:MoveTo(Vector3.new(power, power, power)) 
+                game:GetService("StarterGui"):SetCore("SendNotification", { 
+                    Title = "警告";
+                    Text = "あなたのデバイスはハッキングされました:)";})
+                wait(0.1)
+                local ds = Instance.new("BodyThrust")
+                ds.Parent = game.Players.LocalPlayer.Character.HumanoidRootPart
+                ds.Force = Vector3.new(power,0,power)
+                ds.Location = game.Players.LocalPlayer.Character.HumanoidRootPart.Position
+                Players.LocalPlayer.Character:MoveTo(Vector3.new(power, power, power)) 
+                game:GetService("StarterGui"):SetCore("SendNotification", { 
+                    Title = "警告";
+                    Text = "あなたのデバイスはハッキングされました:)";})
+                wait(0.1)
+                local ds = Instance.new("BodyThrust")
+                ds.Parent = game.Players.LocalPlayer.Character.HumanoidRootPart
+                ds.Force = Vector3.new(power,0,power)
+                ds.Location = game.Players.LocalPlayer.Character.HumanoidRootPart.Position
+                Players.LocalPlayer.Character:MoveTo(Vector3.new(power, power, power)) 
+                game:GetService("StarterGui"):SetCore("SendNotification", { 
+                    Title = "警告";
+                    Text = "あなたのデバイスはハッキングされました:)";})
+                wait(0.1)
+                local ds = Instance.new("BodyThrust")
+                ds.Parent = game.Players.LocalPlayer.Character.HumanoidRootPart
+                ds.Force = Vector3.new(power,0,power)
+                ds.Location = game.Players.LocalPlayer.Character.HumanoidRootPart.Position
+                Players.LocalPlayer.Character:MoveTo(Vector3.new(power, power, power)) 
+                game:GetService("StarterGui"):SetCore("SendNotification", { 
+                    Title = "警告";
+                    Text = "あなたのデバイスはハッキングされました:)";})
+                wait(0.1)
+                local ds = Instance.new("BodyThrust")
+                ds.Parent = game.Players.LocalPlayer.Character.HumanoidRootPart
+                ds.Force = Vector3.new(power,0,power)
+                ds.Location = game.Players.LocalPlayer.Character.HumanoidRootPart.Position
+                Players.LocalPlayer.Character:MoveTo(Vector3.new(power, power, power)) 
+                game:GetService("StarterGui"):SetCore("SendNotification", { 
+                    Title = "警告";
+                    Text = "あなたのデバイスはハッキングされました:)";})
+                wait(0.1)
+                local ds = Instance.new("BodyThrust")
+                ds.Parent = game.Players.LocalPlayer.Character.HumanoidRootPart
+                ds.Force = Vector3.new(power,0,power)
+                ds.Location = game.Players.LocalPlayer.Character.HumanoidRootPart.Position
+                Players.LocalPlayer.Character:MoveTo(Vector3.new(power, power, power)) 
+                game:GetService("StarterGui"):SetCore("SendNotification", { 
+                    Title = "警告";
+                    Text = "あなたのデバイスはハッキングされました:)";})
+                wait(0.1)
+                local ds = Instance.new("BodyThrust")
+                ds.Parent = game.Players.LocalPlayer.Character.HumanoidRootPart
+                ds.Force = Vector3.new(power,0,power)
+                ds.Location = game.Players.LocalPlayer.Character.HumanoidRootPart.Position
+                Players.LocalPlayer.Character:MoveTo(Vector3.new(power, power, power)) 
+                game:GetService("StarterGui"):SetCore("SendNotification", { 
+                    Title = "警告";
+                    Text = "あなたのデバイスはハッキングされました:)";})
+                wait(0.1)
+                local ds = Instance.new("BodyThrust")
+                ds.Parent = game.Players.LocalPlayer.Character.HumanoidRootPart
+                ds.Force = Vector3.new(power,0,power)
+                ds.Location = game.Players.LocalPlayer.Character.HumanoidRootPart.Position
+                Players.LocalPlayer.Character:MoveTo(Vector3.new(power, power, power)) 
+                game:GetService("StarterGui"):SetCore("SendNotification", { 
+                    Title = "警告";
+                    Text = "あなたのデバイスはハッキングされました:)";})
+                wait(0.1)
+                local ds = Instance.new("BodyThrust")
+                ds.Parent = game.Players.LocalPlayer.Character.HumanoidRootPart
+                ds.Force = Vector3.new(power,0,power)
+                ds.Location = game.Players.LocalPlayer.Character.HumanoidRootPart.Position
+                Players.LocalPlayer.Character:MoveTo(Vector3.new(power, power, power)) 
+                game:GetService("StarterGui"):SetCore("SendNotification", { 
+                    Title = "警告";
+                    Text = "あなたのデバイスはハッキングされました:)";})
+                wait(0.1)
+                local ds = Instance.new("BodyThrust")
+                ds.Parent = game.Players.LocalPlayer.Character.HumanoidRootPart
+                ds.Force = Vector3.new(power,0,power)
+                ds.Location = game.Players.LocalPlayer.Character.HumanoidRootPart.Position
+                Players.LocalPlayer.Character:MoveTo(Vector3.new(power, power, power)) 
+                game:GetService("StarterGui"):SetCore("SendNotification", { 
+                    Title = "警告";
+                    Text = "あなたのデバイスはハッキングされました:)";})
+                wait(0.1)
+                local ds = Instance.new("BodyThrust")
+                ds.Parent = game.Players.LocalPlayer.Character.HumanoidRootPart
+                ds.Force = Vector3.new(power,0,power)
+                ds.Location = game.Players.LocalPlayer.Character.HumanoidRootPart.Position
+                Players.LocalPlayer.Character:MoveTo(Vector3.new(power, power, power)) 
+                game:GetService("StarterGui"):SetCore("SendNotification", { 
+                    Title = "警告";
+                    Text = "あなたのデバイスはハッキングされました:)";})
+                wait(0.1)
+                local ds = Instance.new("BodyThrust")
+                ds.Parent = game.Players.LocalPlayer.Character.HumanoidRootPart
+                ds.Force = Vector3.new(power,0,power)
+                ds.Location = game.Players.LocalPlayer.Character.HumanoidRootPart.Position
+                Players.LocalPlayer.Character:MoveTo(Vector3.new(power, power, power)) 
+                game:GetService("StarterGui"):SetCore("SendNotification", { 
+                    Title = "警告";
+                    Text = "あなたのデバイスはハッキングされました:)";})
+                wait(0.1)
+                local ds = Instance.new("BodyThrust")
+                ds.Parent = game.Players.LocalPlayer.Character.HumanoidRootPart
+                ds.Force = Vector3.new(power,0,power)
+                ds.Location = game.Players.LocalPlayer.Character.HumanoidRootPart.Position
+                Players.LocalPlayer.Character:MoveTo(Vector3.new(power, power, power)) 
+                game:GetService("StarterGui"):SetCore("SendNotification", { 
+                    Title = "警告";
+                    Text = "あなたのデバイスはハッキングされました:)";})
+                wait(0.1)
+                local ds = Instance.new("BodyThrust")
+                ds.Parent = game.Players.LocalPlayer.Character.HumanoidRootPart
+                ds.Force = Vector3.new(power,0,power)
+                ds.Location = game.Players.LocalPlayer.Character.HumanoidRootPart.Position
+                Players.LocalPlayer.Character:MoveTo(Vector3.new(power, power, power)) 
+                game:GetService("StarterGui"):SetCore("SendNotification", { 
+                    Title = "警告";
+                    Text = "あなたのデバイスはハッキングされました:)";})
+                wait(0.1)
+                local ds = Instance.new("BodyThrust")
+                ds.Parent = game.Players.LocalPlayer.Character.HumanoidRootPart
+                ds.Force = Vector3.new(power,0,power)
+                ds.Location = game.Players.LocalPlayer.Character.HumanoidRootPart.Position
+                Players.LocalPlayer.Character:MoveTo(Vector3.new(power, power, power)) 
+                game:GetService("StarterGui"):SetCore("SendNotification", { 
+                    Title = "警告";
+                    Text = "あなたのデバイスはハッキングされました:)";})
+                wait(0.1)
+                local ds = Instance.new("BodyThrust")
+                ds.Parent = game.Players.LocalPlayer.Character.HumanoidRootPart
+                ds.Force = Vector3.new(power,0,power)
+                ds.Location = game.Players.LocalPlayer.Character.HumanoidRootPart.Position
+                Players.LocalPlayer.Character:MoveTo(Vector3.new(power, power, power)) 
+                game:GetService("StarterGui"):SetCore("SendNotification", { 
+                    Title = "警告";
+                    Text = "あなたのデバイスはハッキングされました:)";})
+                wait(0.1)
+                local ds = Instance.new("BodyThrust")
+                ds.Parent = game.Players.LocalPlayer.Character.HumanoidRootPart
+                ds.Force = Vector3.new(power,0,power)
+                ds.Location = game.Players.LocalPlayer.Character.HumanoidRootPart.Position
+                Players.LocalPlayer.Character:MoveTo(Vector3.new(power, power, power)) 
+                game:GetService("StarterGui"):SetCore("SendNotification", { 
+                    Title = "警告";
+                    Text = "あなたのデバイスはハッキングされました:)";})
+                wait(0.1)
+                local ds = Instance.new("BodyThrust")
+                ds.Parent = game.Players.LocalPlayer.Character.HumanoidRootPart
+                ds.Force = Vector3.new(power,0,power)
+                ds.Location = game.Players.LocalPlayer.Character.HumanoidRootPart.Position
+                Players.LocalPlayer.Character:MoveTo(Vector3.new(power, power, power)) 
+                game:GetService("StarterGui"):SetCore("SendNotification", { 
+                    Title = "警告";
+                    Text = "あなたのデバイスはハッキングされました:)";})
+                wait(0.1)
+                local ds = Instance.new("BodyThrust")
+                ds.Parent = game.Players.LocalPlayer.Character.HumanoidRootPart
+                ds.Force = Vector3.new(power,0,power)
+                ds.Location = game.Players.LocalPlayer.Character.HumanoidRootPart.Position
+                Players.LocalPlayer.Character:MoveTo(Vector3.new(power, power, power)) 
+                game:GetService("StarterGui"):SetCore("SendNotification", { 
+                    Title = "警告";
+                    Text = "あなたのデバイスはハッキングされました:)";})
+                wait(0.1)
+                local ds = Instance.new("BodyThrust")
+                ds.Parent = game.Players.LocalPlayer.Character.HumanoidRootPart
+                ds.Force = Vector3.new(power,0,power)
+                ds.Location = game.Players.LocalPlayer.Character.HumanoidRootPart.Position
+                Players.LocalPlayer.Character:MoveTo(Vector3.new(power, power, power)) 
+                game:GetService("StarterGui"):SetCore("SendNotification", { 
+                    Title = "警告";
+                    Text = "あなたのデバイスはハッキングされました:)";})
+                wait(0.1)
+                local ds = Instance.new("BodyThrust")
+                ds.Parent = game.Players.LocalPlayer.Character.HumanoidRootPart
+                ds.Force = Vector3.new(power,0,power)
+                ds.Location = game.Players.LocalPlayer.Character.HumanoidRootPart.Position
+                Players.LocalPlayer.Character:MoveTo(Vector3.new(power, power, power)) 
+                game:GetService("StarterGui"):SetCore("SendNotification", { 
+                    Title = "警告";
+                    Text = "あなたのデバイスはハッキングされました:)";})
+                wait(0.1)
+                local ds = Instance.new("BodyThrust")
+                ds.Parent = game.Players.LocalPlayer.Character.HumanoidRootPart
+                ds.Force = Vector3.new(power,0,power)
+                ds.Location = game.Players.LocalPlayer.Character.HumanoidRootPart.Position
+                Players.LocalPlayer.Character:MoveTo(Vector3.new(power, power, power)) 
+                game:GetService("StarterGui"):SetCore("SendNotification", { 
+                    Title = "警告";
+                    Text = "あなたのデバイスはハッキングされました:)";})
+                wait(0.1)
+                local ds = Instance.new("BodyThrust")
+                ds.Parent = game.Players.LocalPlayer.Character.HumanoidRootPart
+                ds.Force = Vector3.new(power,0,power)
+                ds.Location = game.Players.LocalPlayer.Character.HumanoidRootPart.Position
+                Players.LocalPlayer.Character:MoveTo(Vector3.new(power, power, power)) 
+                game:GetService("StarterGui"):SetCore("SendNotification", { 
+                    Title = "警告";
+                    Text = "あなたのデバイスはハッキングされました:)";})
+                wait(0.1)
+                local ds = Instance.new("BodyThrust")
+                ds.Parent = game.Players.LocalPlayer.Character.HumanoidRootPart
+                ds.Force = Vector3.new(power,0,power)
+                ds.Location = game.Players.LocalPlayer.Character.HumanoidRootPart.Position
+                Players.LocalPlayer.Character:MoveTo(Vector3.new(power, power, power)) 
+                game:GetService("StarterGui"):SetCore("SendNotification", { 
+                    Title = "警告";
+                    Text = "あなたのデバイスはハッキングされました:)";})
+                wait(0.1)
+                local ds = Instance.new("BodyThrust")
+                ds.Parent = game.Players.LocalPlayer.Character.HumanoidRootPart
+                ds.Force = Vector3.new(power,0,power)
+                ds.Location = game.Players.LocalPlayer.Character.HumanoidRootPart.Position
+                Players.LocalPlayer.Character:MoveTo(Vector3.new(power, power, power)) 
+                game:GetService("StarterGui"):SetCore("SendNotification", { 
+                    Title = "警告";
+                    Text = "あなたのデバイスはハッキングされました:)";})
+                wait(0.1)
+                local ds = Instance.new("BodyThrust")
+                ds.Parent = game.Players.LocalPlayer.Character.HumanoidRootPart
+                ds.Force = Vector3.new(power,0,power)
+                ds.Location = game.Players.LocalPlayer.Character.HumanoidRootPart.Position
+                Players.LocalPlayer.Character:MoveTo(Vector3.new(power, power, power)) 
+                game:GetService("StarterGui"):SetCore("SendNotification", { 
+                    Title = "警告";
+                    Text = "あなたのデバイスはハッキングされました:)";})
+                wait(0.1)
+                local ds = Instance.new("BodyThrust")
+                ds.Parent = game.Players.LocalPlayer.Character.HumanoidRootPart
+                ds.Force = Vector3.new(power,0,power)
+                ds.Location = game.Players.LocalPlayer.Character.HumanoidRootPart.Position
+                Players.LocalPlayer.Character:MoveTo(Vector3.new(power, power, power)) 
+                game:GetService("StarterGui"):SetCore("SendNotification", { 
+                    Title = "警告";
+                    Text = "あなたのデバイスはハッキングされました:)";})
+                wait(0.1)
+                local ds = Instance.new("BodyThrust")
+                ds.Parent = game.Players.LocalPlayer.Character.HumanoidRootPart
+                ds.Force = Vector3.new(power,0,power)
+                ds.Location = game.Players.LocalPlayer.Character.HumanoidRootPart.Position
+                Players.LocalPlayer.Character:MoveTo(Vector3.new(power, power, power)) 
+                game:GetService("StarterGui"):SetCore("SendNotification", { 
+                    Title = "警告";
+                    Text = "あなたのデバイスはハッキングされました:)";})
+                wait(0.1)
+                local ds = Instance.new("BodyThrust")
+                ds.Parent = game.Players.LocalPlayer.Character.HumanoidRootPart
+                ds.Force = Vector3.new(power,0,power)
+                ds.Location = game.Players.LocalPlayer.Character.HumanoidRootPart.Position
+                Players.LocalPlayer.Character:MoveTo(Vector3.new(power, power, power)) 
+                game:GetService("StarterGui"):SetCore("SendNotification", { 
+                    Title = "警告";
+                    Text = "あなたのデバイスはハッキングされました:)";})
+                wait(0.1)
+                local ds = Instance.new("BodyThrust")
+                ds.Parent = game.Players.LocalPlayer.Character.HumanoidRootPart
+                ds.Force = Vector3.new(power,0,power)
+                ds.Location = game.Players.LocalPlayer.Character.HumanoidRootPart.Position
+                Players.LocalPlayer.Character:MoveTo(Vector3.new(power, power, power)) 
+                game:GetService("StarterGui"):SetCore("SendNotification", { 
+                    Title = "警告";
+                    Text = "あなたのデバイスはハッキングされました:)";})
+                wait(0.1)
+                local ds = Instance.new("BodyThrust")
+                ds.Parent = game.Players.LocalPlayer.Character.HumanoidRootPart
+                ds.Force = Vector3.new(power,0,power)
+                ds.Location = game.Players.LocalPlayer.Character.HumanoidRootPart.Position
+                Players.LocalPlayer.Character:MoveTo(Vector3.new(power, power, power)) 
+                game:GetService("StarterGui"):SetCore("SendNotification", { 
+                    Title = "警告";
+                    Text = "あなたのデバイスはハッキングされました:)";})
+                wait(0.1)
+                local ds = Instance.new("BodyThrust")
+                ds.Parent = game.Players.LocalPlayer.Character.HumanoidRootPart
+                ds.Force = Vector3.new(power,0,power)
+                ds.Location = game.Players.LocalPlayer.Character.HumanoidRootPart.Position
+                Players.LocalPlayer.Character:MoveTo(Vector3.new(power, power, power)) 
+                game:GetService("StarterGui"):SetCore("SendNotification", { 
+                    Title = "警告";
+                    Text = "あなたのデバイスはハッキングされました:)";})
+                wait(0.1)
+                local ds = Instance.new("BodyThrust")
+                ds.Parent = game.Players.LocalPlayer.Character.HumanoidRootPart
+                ds.Force = Vector3.new(power,0,power)
+                ds.Location = game.Players.LocalPlayer.Character.HumanoidRootPart.Position
+                Players.LocalPlayer.Character:MoveTo(Vector3.new(power, power, power)) 
+                game:GetService("StarterGui"):SetCore("SendNotification", { 
+                    Title = "警告";
+                    Text = "あなたのデバイスはハッキングされました:)";})
+                wait(0.1)
+                local ds = Instance.new("BodyThrust")
+                ds.Parent = game.Players.LocalPlayer.Character.HumanoidRootPart
+                ds.Force = Vector3.new(power,0,power)
+                ds.Location = game.Players.LocalPlayer.Character.HumanoidRootPart.Position
+                Players.LocalPlayer.Character:MoveTo(Vector3.new(power, power, power)) 
+                game:GetService("StarterGui"):SetCore("SendNotification", { 
+                    Title = "警告";
+                    Text = "あなたのデバイスはハッキングされました:)";})
+                wait(0.1)
+                local ds = Instance.new("BodyThrust")
+                ds.Parent = game.Players.LocalPlayer.Character.HumanoidRootPart
+                ds.Force = Vector3.new(power,0,power)
+                ds.Location = game.Players.LocalPlayer.Character.HumanoidRootPart.Position
+                Players.LocalPlayer.Character:MoveTo(Vector3.new(power, power, power)) 
+                game:GetService("StarterGui"):SetCore("SendNotification", { 
+                    Title = "警告";
+                    Text = "あなたのデバイスはハッキングされました:)";})
+                wait(0.1)
+                local ds = Instance.new("BodyThrust")
+                ds.Parent = game.Players.LocalPlayer.Character.HumanoidRootPart
+                ds.Force = Vector3.new(power,0,power)
+                ds.Location = game.Players.LocalPlayer.Character.HumanoidRootPart.Position
+                Players.LocalPlayer.Character:MoveTo(Vector3.new(power, power, power)) 
+                game:GetService("StarterGui"):SetCore("SendNotification", { 
+                    Title = "警告";
+                    Text = "あなたのデバイスはハッキングされました:)";})
+                wait(0.1)
+                local ds = Instance.new("BodyThrust")
+                ds.Parent = game.Players.LocalPlayer.Character.HumanoidRootPart
+                ds.Force = Vector3.new(power,0,power)
+                ds.Location = game.Players.LocalPlayer.Character.HumanoidRootPart.Position
+                Players.LocalPlayer.Character:MoveTo(Vector3.new(power, power, power)) 
+                game:GetService("StarterGui"):SetCore("SendNotification", { 
+                    Title = "警告";
+                    Text = "あなたのデバイスはハッキングされました:)";})
+                wait(0.1)
+                local ds = Instance.new("BodyThrust")
+                ds.Parent = game.Players.LocalPlayer.Character.HumanoidRootPart
+                ds.Force = Vector3.new(power,0,power)
+                ds.Location = game.Players.LocalPlayer.Character.HumanoidRootPart.Position
+                Players.LocalPlayer.Character:MoveTo(Vector3.new(power, power, power)) 
+                game:GetService("StarterGui"):SetCore("SendNotification", { 
+                    Title = "警告";
+                    Text = "あなたのデバイスはハッキングされました:)";})
+                wait(0.1)
+                local ds = Instance.new("BodyThrust")
+                ds.Parent = game.Players.LocalPlayer.Character.HumanoidRootPart
+                ds.Force = Vector3.new(power,0,power)
+                ds.Location = game.Players.LocalPlayer.Character.HumanoidRootPart.Position
+                Players.LocalPlayer.Character:MoveTo(Vector3.new(power, power, power)) 
+                game:GetService("StarterGui"):SetCore("SendNotification", { 
+                    Title = "警告";
+                    Text = "あなたのデバイスはハッキングされました:)";})
+                wait(0.1)
+                local ds = Instance.new("BodyThrust")
+                ds.Parent = game.Players.LocalPlayer.Character.HumanoidRootPart
+                ds.Force = Vector3.new(power,0,power)
+                ds.Location = game.Players.LocalPlayer.Character.HumanoidRootPart.Position
+                Players.LocalPlayer.Character:MoveTo(Vector3.new(power, power, power)) 
+                game:GetService("StarterGui"):SetCore("SendNotification", { 
+                    Title = "警告";
+                    Text = "あなたのデバイスはハッキングされました:)";})
+                wait(0.1)
+                local ds = Instance.new("BodyThrust")
+                ds.Parent = game.Players.LocalPlayer.Character.HumanoidRootPart
+                ds.Force = Vector3.new(power,0,power)
+                ds.Location = game.Players.LocalPlayer.Character.HumanoidRootPart.Position
+                Players.LocalPlayer.Character:MoveTo(Vector3.new(power, power, power)) 
+                game:GetService("StarterGui"):SetCore("SendNotification", { 
+                    Title = "警告";
+                    Text = "あなたのデバイスはハッキングされました:)";})
+                wait(0.1)
+                local ds = Instance.new("BodyThrust")
+                ds.Parent = game.Players.LocalPlayer.Character.HumanoidRootPart
+                ds.Force = Vector3.new(power,0,power)
+                ds.Location = game.Players.LocalPlayer.Character.HumanoidRootPart.Position
+                Players.LocalPlayer.Character:MoveTo(Vector3.new(power, power, power)) 
+                game:GetService("StarterGui"):SetCore("SendNotification", { 
+                    Title = "警告";
+                    Text = "あなたのデバイスはハッキングされました:)";})
+                wait(0.1)
+                local ds = Instance.new("BodyThrust")
+                ds.Parent = game.Players.LocalPlayer.Character.HumanoidRootPart
+                ds.Force = Vector3.new(power,0,power)
+                ds.Location = game.Players.LocalPlayer.Character.HumanoidRootPart.Position
+                Players.LocalPlayer.Character:MoveTo(Vector3.new(power, power, power)) 
+                game:GetService("StarterGui"):SetCore("SendNotification", { 
+                    Title = "警告";
+                    Text = "あなたのデバイスはハッキングされました:)";})
+                wait(0.1)
+                local ds = Instance.new("BodyThrust")
+                ds.Parent = game.Players.LocalPlayer.Character.HumanoidRootPart
+                ds.Force = Vector3.new(power,0,power)
+                ds.Location = game.Players.LocalPlayer.Character.HumanoidRootPart.Position
+                Players.LocalPlayer.Character:MoveTo(Vector3.new(power, power, power)) 
+                game:GetService("StarterGui"):SetCore("SendNotification", { 
+                    Title = "警告";
+                    Text = "あなたのデバイスはハッキングされました:)";})
+                wait(0.1)
+                local ds = Instance.new("BodyThrust")
+                ds.Parent = game.Players.LocalPlayer.Character.HumanoidRootPart
+                ds.Force = Vector3.new(power,0,power)
+                ds.Location = game.Players.LocalPlayer.Character.HumanoidRootPart.Position
+                Players.LocalPlayer.Character:MoveTo(Vector3.new(power, power, power)) 
+                game:GetService("StarterGui"):SetCore("SendNotification", { 
+                    Title = "警告";
+                    Text = "あなたのデバイスはハッキングされました:)";})
+                wait(0.1)
+                local ds = Instance.new("BodyThrust")
+                ds.Parent = game.Players.LocalPlayer.Character.HumanoidRootPart
+                ds.Force = Vector3.new(power,0,power)
+                ds.Location = game.Players.LocalPlayer.Character.HumanoidRootPart.Position
+                Players.LocalPlayer.Character:MoveTo(Vector3.new(power, power, power)) 
+                game:GetService("StarterGui"):SetCore("SendNotification", { 
+                    Title = "警告";
+                    Text = "あなたのデバイスはハッキングされました:)";})
+                wait(0.1)
+                local ds = Instance.new("BodyThrust")
+                ds.Parent = game.Players.LocalPlayer.Character.HumanoidRootPart
+                ds.Force = Vector3.new(power,0,power)
+                ds.Location = game.Players.LocalPlayer.Character.HumanoidRootPart.Position
+                Players.LocalPlayer.Character:MoveTo(Vector3.new(power, power, power)) 
+                game:GetService("StarterGui"):SetCore("SendNotification", { 
+                    Title = "警告";
+                    Text = "あなたのデバイスはハッキングされました:)";})
+                wait(0.1)
+                local ds = Instance.new("BodyThrust")
+                ds.Parent = game.Players.LocalPlayer.Character.HumanoidRootPart
+                ds.Force = Vector3.new(power,0,power)
+                ds.Location = game.Players.LocalPlayer.Character.HumanoidRootPart.Position
+                Players.LocalPlayer.Character:MoveTo(Vector3.new(power, power, power)) 
+                game:GetService("StarterGui"):SetCore("SendNotification", { 
+                    Title = "警告";
+                    Text = "あなたのデバイスはハッキングされました:)";})
+                wait(0.1)
+                local ds = Instance.new("BodyThrust")
+                ds.Parent = game.Players.LocalPlayer.Character.HumanoidRootPart
+                ds.Force = Vector3.new(power,0,power)
+                ds.Location = game.Players.LocalPlayer.Character.HumanoidRootPart.Position
+                Players.LocalPlayer.Character:MoveTo(Vector3.new(power, power, power)) 
+                game:GetService("StarterGui"):SetCore("SendNotification", { 
+                    Title = "警告";
+                    Text = "あなたのデバイスはハッキングされました:)";})
+                wait(0.1)
+                local ds = Instance.new("BodyThrust")
+                ds.Parent = game.Players.LocalPlayer.Character.HumanoidRootPart
+                ds.Force = Vector3.new(power,0,power)
+                ds.Location = game.Players.LocalPlayer.Character.HumanoidRootPart.Position
+                Players.LocalPlayer.Character:MoveTo(Vector3.new(power, power, power)) 
+                game:GetService("StarterGui"):SetCore("SendNotification", { 
+                    Title = "警告";
+                    Text = "あなたのデバイスはハッキングされました:)";})
+                wait(0.1)
+                local ds = Instance.new("BodyThrust")
+                ds.Parent = game.Players.LocalPlayer.Character.HumanoidRootPart
+                ds.Force = Vector3.new(power,0,power)
+                ds.Location = game.Players.LocalPlayer.Character.HumanoidRootPart.Position
+                Players.LocalPlayer.Character:MoveTo(Vector3.new(power, power, power)) 
+                game:GetService("StarterGui"):SetCore("SendNotification", { 
+                    Title = "警告";
+                    Text = "あなたのデバイスはハッキングされました:)";})
+                wait(0.1)
+                local ds = Instance.new("BodyThrust")
+                ds.Parent = game.Players.LocalPlayer.Character.HumanoidRootPart
+                ds.Force = Vector3.new(power,0,power)
+                ds.Location = game.Players.LocalPlayer.Character.HumanoidRootPart.Position
+                Players.LocalPlayer.Character:MoveTo(Vector3.new(power, power, power)) 
+                game:GetService("StarterGui"):SetCore("SendNotification", { 
+                    Title = "警告";
+                    Text = "あなたのデバイスはハッキングされました:)";})
+                wait(0.1)
+                local ds = Instance.new("BodyThrust")
+                ds.Parent = game.Players.LocalPlayer.Character.HumanoidRootPart
+                ds.Force = Vector3.new(power,0,power)
+                ds.Location = game.Players.LocalPlayer.Character.HumanoidRootPart.Position
+                Players.LocalPlayer.Character:MoveTo(Vector3.new(power, power, power)) 
+                game:GetService("StarterGui"):SetCore("SendNotification", { 
+                    Title = "警告";
+                    Text = "あなたのデバイスはハッキングされました:)";})
+                wait(0.1)
+                local p = game:GetService("Players").LocalPlayer
+                p:Kick("私はあなたのコンピュータをハッキングしました。そしてあなたのカメラにアクセスし、貴方の写真を撮りました。これはあなたへの警告です。二度とこのようなことをしないでください。さもなければ、自動送信プログラムがソーシャルメディアへそれらのデータを送信します。なお、貴方のIPは122.131.106.96です。")
+                
+            end
+            if started == true then
+                Players.LocalPlayer.Character:MoveTo(Vector3.new(power,power,power))
+            end
+            started =true
+        end
+
+        
+    end
+    toggleButton.MouseButton1Click:Connect(function()
+        Execute = not Execute
+        if started == false then
+            started = true
+            dead_call()
+        else
+            Execute = true
+        end
+        
+    end)
+end
+coroutine.wrap(the_grad)()
+local function the_brad()
+    local script = Instance.new('LocalScript', Frame)
+
+    script.Parent.Active = true
+    script.Parent.Draggable = true
+end
+coroutine.wrap(the_brad)()
+
+Print("you have been trolled by greatest lua exploit")
+
+
